@@ -2,9 +2,11 @@ class Character < ActiveRecord::Base
   belongs_to :actor
   belongs_to :show
 
-  attr_accessor :catchphrase
-  # def catchphrase
-  #   catchp
-  # end
+  def catchphrase=(catchphrase)
+    @catchprase = catchphrase
+  end
 
+  def catchphrase
+    @catchphrase
+  end
 end

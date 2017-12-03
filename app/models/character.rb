@@ -4,7 +4,10 @@ class Character < ActiveRecord::Base
 
   def catchphrase=(catchphrase)
     @catchphrase = catchphrase
+  end
 
+  def catchphrase
+    @catchphrase
   end
 
 end

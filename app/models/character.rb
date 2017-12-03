@@ -2,11 +2,8 @@ class Character < ActiveRecord::Base
   belongs_to :actor
   belongs_to :show
 
-  def catchphrase=(catchphrase)
-    @catchprase = catchphrase
+  def catchphrase=
+    self.catchphrase= @catchphrase
   end
 
-  def catchphrase
-    @catchphrase
-  end
 end

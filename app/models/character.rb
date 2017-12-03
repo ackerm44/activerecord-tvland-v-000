@@ -1,9 +1,8 @@
 class Character < ActiveRecord::Base
-  attr_accessor :catchphrase
-
   belongs_to :actor
   belongs_to :show
 
+  attr_accessor :catchphrase
   # def catchphrase
   #   catchp
   # end

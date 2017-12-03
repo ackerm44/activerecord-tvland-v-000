@@ -11,6 +11,7 @@ class Actor < ActiveRecord::Base
       #puts "#{self.characters.name} - #{self.shows.name}"
       puts character.name
       puts character.show.name
+      "#{character.name} - #{character.show.name}"
       #puts self.shows
     end
     #end

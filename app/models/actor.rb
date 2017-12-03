@@ -10,7 +10,7 @@ class Actor < ActiveRecord::Base
     self.characters.collect do |character|
       #puts "#{self.characters.name} - #{self.shows.name}"
       puts character.name
-      puts charter.show
+      puts character.show
       #puts self.shows
     end
     #end

@@ -5,8 +5,4 @@ class Show < ActiveRecord::Base
 
   attr_accessor :day, :season
 
-  # def build_network
-  #   self.network
-  # end
-
 end

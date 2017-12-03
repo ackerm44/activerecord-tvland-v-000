@@ -1,3 +1,3 @@
 class AddGenreToShows < ActiveRecord::Migration
-  add_column :songs, :genre, :string
+  add_column :shows, :genre, :string
 end
